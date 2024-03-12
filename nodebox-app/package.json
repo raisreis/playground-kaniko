@@ -1,9 +1,12 @@
 {
-  "name": "nodejs-app",
-  "version": "1.0.0",
-  "description": "Simple Node.JS app",
-  "main": "index.js",
+  "name": "npm-simple-renamed",
+  "version": "0.0.1",
+  "description": "Example node.js server ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "print-http-server-version": "serve -v",
+    "start": "serve public"
+  },
+  "dependencies": {
+    "serve": "^13.0.2"
   }
 }
